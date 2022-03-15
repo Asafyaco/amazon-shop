@@ -1,0 +1,9 @@
+.product-card {
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 10px;
+    padding: 30px;
+}
+
+.product-info {
+    text-align: left;
+}
