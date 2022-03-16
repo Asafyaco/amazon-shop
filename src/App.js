@@ -25,8 +25,7 @@ const App = () => {
   return (
     <>
       <Header />
-      <ProductArea products={products} addProduct={addProduct} />
-      <Footer />
+      <ProductArea products={products} addProduct={addProduct} /> <Footer />
     </>
   );
 };

@@ -3,17 +3,11 @@ import "./products-grid.css";
 import ProductCard from "../ProductCard/ProductCard";
 
 const ProductsGrid = ({ products }) => {
-  const [productsArr, setProductsArr] = useState([]);
-  useEffect(() => {
-    if (products.length !== 0) {
-      setProductsArr(products);
-    }
-  }, []);
   return (
     <>
       <div className="products">
-        {productsArr.length !== 0 ? (
-          productsArr.map((e) => {
+        {products.length !== 0 ? (
+          products.map((e) => {
             return <ProductCard product={e} />;
           })
         ) : (
