@@ -1,0 +1,36 @@
+header {
+  height: 10vh;
+  background-color: black;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.logo-img {
+  height: 4rem;
+  padding: 0.5rem;
+}
+
+.search-input {
+  width: 30vw;
+  padding: 1rem 0;
+  border: 0.1rem solid #fff;
+}
+
+.submit-button {
+  padding: 1rem;
+  cursor: pointer;
+  border: 0.1rem solid #fff;
+  color: #fff;
+  background-color: #f79500;
+  font-weight: bold;
+}
+
+.cart-btn {
+  padding: 1rem;
+  cursor: pointer;
+  border: 1px solid #fff;
+  color: #fff;
+  background-color: #f79500;
+  font-weight: bold;
+}
